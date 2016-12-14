@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:textSize="50dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:drawableRight="@mipmap/my_ic_launcher"
+            />
+    </LinearLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/FinGridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:alignmentMode="alignBounds"
+
+        android:layout_below="@+id/linearLayoutEditText"
+        app:columnCount="4"
+        app:rowCount="5">
+
+        <Button
+            android:id="@+id/buttonC"
+            android:onClick="onClick"
+            android:text="C"
+            style="@style/ForButtonOperation" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:text="Delete"
+            android:onClick="onClick"
+            style="@style/ForButtonOperation"
+            />
+
+        <Button
+            android:id="@+id/buttonEqually"
+            android:text="="
+            android:onClick="onClick"
+            style="@style/ForButtonDoubleSize"
+            />
+
+        <Button
+            android:id="@+id/button7"
+            android:text="7"
+            android:contentDescription="7"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/button8"
+            android:text="8"
+            android:contentDescription="8"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/button9"
+            android:text="9"
+            android:contentDescription="9"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:text="/"
+            android:onClick="onClick"
+            style="@style/ForButtonOperation"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:text="4"
+            android:contentDescription="4"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:text="5"
+            android:contentDescription="5"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:text="6"
+            android:contentDescription="6"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/buttonMultiplication"
+            android:text="*"
+            android:onClick="onClick"
+            style="@style/ForButtonOperation"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="1"
+            android:contentDescription="1"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="2"
+            android:contentDescription="2"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:text="3"
+            android:contentDescription="3"
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/buttonSubstraction"
+            android:text="-"
+            android:onClick="onClick"
+            style="@style/ForButtonOperation"
+            />
+
+        <Button
+            android:id="@+id/button0"
+            android:text="0"
+            android:contentDescription="0"
+            android:onClick="onClick"
+            style="@style/ForButtonDoubleSize"
+            />
+
+        <Button
+            android:id="@+id/buttonPoint"
+            android:text="."
+            android:onClick="onClick"
+            style="@style/ForButton"
+            />
+
+        <Button
+            android:id="@+id/buttonAddition"
+            android:text="+"
+            android:onClick="onClick"
+            style="@style/ForButtonOperation"
+            />
+
+
+
+
+
+    </android.support.v7.widget.GridLayout>
+
+
+</RelativeLayout>

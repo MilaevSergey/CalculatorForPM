@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="ForButton21Api" parent="Widget.AppCompat.Button">
+
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowSpan">1</item>
+        <item name="android:layout_columnSpan">1</item>
+
+
+    </style>
+
+    <style name="ForButton21ApiOperation" parent="Widget.AppCompat.Button">
+
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowSpan">1</item>
+        <item name="android:layout_columnSpan">1</item>
+
+
+    </style>
+
+    <style name="ForButton21ApiDoubleSize" parent="Widget.AppCompat.Button">
+
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowSpan">1</item>
+        <item name="android:layout_columnSpan">2</item>
+
+
+    </style>
+</resources>

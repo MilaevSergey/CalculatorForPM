@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="ForButton" parent="Widget.AppCompat.Button">
+
+    <item name="layout_columnWeight">1</item>
+    <item name="layout_rowWeight">1</item>
+    <item name="layout_rowSpan">1</item>
+    <item name="layout_columnSpan">1</item>
+
+    </style>
+
+    <style name="ForButtonOperation" parent="Widget.AppCompat.Button">
+
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="layout_rowSpan">1</item>
+        <item name="layout_columnSpan">1</item>
+
+    </style>
+
+
+    <style name="ForButtonDoubleSize" parent="Widget.AppCompat.Button">
+
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="layout_rowSpan">1</item>
+        <item name="layout_columnSpan">2</item>
+
+    </style>
+
+</resources>

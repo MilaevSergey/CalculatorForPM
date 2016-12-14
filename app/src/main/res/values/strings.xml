@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CalculatorForPM</string>
+    <string name="division_zero">На ноль делить нельзя</string>
+</resources>
